@@ -1,0 +1,212 @@
+html{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,99,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+
+
+#root{
+    display:flex;
+    width: 100vw;
+    height:100vh;
+}
+.hangstand{
+    width: 50%;
+
+}
+.buttons-parent{
+    padding-right: 6%;
+    width:60%;
+    height: 70vh;
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+button {
+    background-color: #fdec009d;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: 10px 10px;
+    padding: 20px 22px;
+
+}
+button:hover{
+    background-color: #eb1d022a;
+    cursor: pointer;
+
+}
+body{ 
+    overflow-x:hidden;
+}
+span{
+    display:none;
+}
+p{
+    color:white;
+    font-size: 1.5rem;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+    border-bottom: 4px solid white;
+    height: 30px;
+    width: 20px;
+}
+
+.blanks_parent{
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.greenBtn,
+.greenBtn:hover{
+
+    background-color: green;
+    color:white;
+}
+.redBtn,
+.redBtn:hover{
+    background-color: red;
+    color: white;
+}
+
+.game_hint{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+    margin: 50 px;
+
+
+}
+.class1{
+    height: 5px;
+    width:40%;
+    left:20px;
+    background-color: white;
+    position: absolute;
+    bottom:7%;
+}
+.class2{
+    height: 8px;
+    width:91vh;
+    top:47vh;
+    background-color: white;
+    position: absolute;
+    right:1040px;
+    transform: rotate(90deg);
+
+}
+.class3{
+    height: 5px;
+    width:20%;
+    left:30px;
+    background-color: white;
+    position: absolute;
+    top:2%;
+}
+.class4{
+    height: 5px;
+    width:15vh;
+    top:10vh;
+    background-color: white;
+    position: absolute;
+    right:1020px;
+    transform: rotate(90deg);
+
+}
+.class5{
+    height:90px;
+    width:90px;
+    position: absolute;
+    background-color:white ;
+    border-radius: 50%;
+    top:112px;
+    left:250px;
+    }
+.class6{
+    height: 8px;
+    width:21vh;
+    top:41vh;
+    background-color: white;
+    position: absolute;
+    right:1002px;
+    transform: rotate(90deg);
+    
+    }
+.class7{
+    height: 8px;
+     width:15vh;
+     top:41vh;
+     background-color: white;
+     position: absolute;
+     right:1062px;
+     transform: rotate(20deg);
+    
+    }
+.class8{
+        height: 8px;
+        width:15vh;
+        top:41vh;
+        background-color: white;
+        position: absolute;
+
+        right:983px;
+        transform: rotate(-20deg);
+    
+    }
+.class9{
+        height: 8px;
+        width:15vh;
+        top:55vh;
+        background-color: white;
+        position: absolute;
+        right:983px;
+        transform: rotate(-152deg);
+    
+    }
+.class10{
+        height: 8px;
+        width:15vh;
+        top:55vh;
+        background-color: white;
+        position: absolute;
+        right:1062px;
+        transform: rotate(152deg);
+    
+    }
+
+
+.game-message {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 1.8rem;
+    padding: 20px 30px;
+    border-radius: 12px;
+    z-index: 1000;
+    text-align: center;          
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    white-space: pre-line;        
+    max-width: 90vw;              
+    width: fit-content;          
+    margin: 0 auto;               
+}
+
+.game-message button:hover {
+    background-color: #019875;
+}
+
+    .display-none{
+
+        display:none;
+    }
+
+
+
+
