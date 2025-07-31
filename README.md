@@ -1,2 +1,4 @@
 # Hangman-game
-My first git repository
+My first git repository.
+<br>
+Auhtor-Sakila Akter
